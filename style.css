@@ -1,0 +1,66 @@
+/* Giữ nguyên CSS hiện tại */
+
+body {
+  margin: 0;
+}
+
+#info {
+  position: absolute;
+  font-family: sans-serif;
+  font-size: 24px;
+  right: 0;
+  bottom: 0;
+  color: white;
+  margin: 8px;
+}
+
+#toolbar-container {
+  position: fixed;
+  bottom: 8px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+#toolbar {
+  background-color: rgb(109, 109, 109);
+  border: 4px solid rgb(147, 147, 147);
+  padding: 8px;
+  display: flex;
+  justify-content: space-between;
+  column-gap: 12px;
+}
+
+.toolbar-item {
+  position: relative;  /* Để số con (child) có thể định vị tuyệt đối (absolute) */
+}
+
+.toolbar-icon {
+  width: 64px;
+  height: 64px;
+  outline: 4px solid rgb(58, 58, 58);
+}
+
+.toolbar-icon.selected {
+  outline: 4px solid white;
+}
+
+.toolbar-number {
+  position: absolute;
+  top: 4px;  /* Khoảng cách từ trên xuống */
+  right: 4px;  /* Khoảng cách từ phải sang */
+  background-color: rgba(0, 0, 0, 0.7);  /* Nền màu đen mờ */
+  color: white;
+  padding: 2px 5px;
+  border-radius: 50%;  /* Hình dạng tròn */
+  font-size: 14px;
+  font-weight: bold;
+}
+
+#status {
+  position: fixed;
+  bottom: 8px;
+  left: 8px;
+  font-size: 2em;
+  color: white;
+}
