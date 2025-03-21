@@ -23,4 +23,4 @@
 
 video demo:
 https://drive.google.com/file/d/1-lftAxkrg36-AHZb9SEmv89xd9BmCsoC/view?usp=sharing
-ref: phát triển dựa trên phiên bản của Dan Greenheck (https://www.youtube.com/watch?v=tsOTCn0nROI&t=644s) với các chức năng mới được thêm vào
+- ref: phát triển dựa trên phiên bản của Dan Greenheck (https://www.youtube.com/watch?v=tsOTCn0nROI&t=644s) với các chức năng mới được thêm vào
